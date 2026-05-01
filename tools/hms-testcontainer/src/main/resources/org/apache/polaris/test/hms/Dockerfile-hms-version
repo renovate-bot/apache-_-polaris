@@ -18,7 +18,7 @@
 #
 
 # The FROM line is managed by Renovate.
-FROM apache/hive:4.0.1
+FROM apache/hive:4.2.0
 
 # The apache/hive:4.x image does not ship hadoop-aws or the AWS SDK in /opt/hive/lib,
 # so HMS cannot resolve s3a:// table locations out of the box. We add them here.
